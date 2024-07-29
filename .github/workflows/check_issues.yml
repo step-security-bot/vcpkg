@@ -5,6 +5,9 @@ on:
     types:
       - opened
 
+permissions:
+  contents: read
+
 jobs:
   check-for-common-issues:
     runs-on: ubuntu-latest
